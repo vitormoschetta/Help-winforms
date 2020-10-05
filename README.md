@@ -40,7 +40,7 @@ public partial class FrmInclusaoTelefone : Form
 }
 ```
 
-#### Abrir um form filho, e depois que fechar atualizar o form pai:
+#### Abrir um form filho, e depois que fechar atualizar o form pai (ShowDialog):
 ```
 FrmInclusaoTelefone frmInclusaoTelefone = new FrmInclusaoTelefone(this);
 frmInclusaoTelefone.ShowDialog();
